@@ -3,3 +3,13 @@ header nav a{
 	text-decoration: none;
 	text-align: center;
 }
+
+footer nav a{
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer nav ul{
+	list-style-position: inside;
+}
