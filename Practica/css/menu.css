@@ -8,26 +8,45 @@ nav ul{
 }
 
 nav li a{
-	display: block;
 	width: 120px;
 	text-decoration: none;
 	text-align: center;
 }
 
-header nav li a{
-	color: white;
+.MenuPrincipal ul{
+	background-color: #28B78D;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.ItemMenuP{
+	display: block;
+	flex-grow: 1;
 	background-color: #28B78D;
 	color: #FAFAFA;
 	font-size: 18px;
+	/*margin: 4px;*/
+	align-self: stretch;
 }
 
-header nav li a:hover{
+.ItemMenuP:hover{
 	background-color: #8A949B;
 	color: #243743;
+	align-self: stretch;
 }
 
-footer nav li a{
+.MenuFooter ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8A949B;
+}
+
+.ItemMenuF{
 	background-color: #8A949B;
 	color: #243743;
 	font-size: 12px;
+	display: block;
+	flex-grow: 1;
 }

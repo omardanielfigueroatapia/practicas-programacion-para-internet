@@ -1,3 +1,22 @@
-article img{
+.Producto{
+	background-color: #FAFAFA;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ImagenProducto{
+	flex-grow: 1;
+}
+
+.DescripcionProducto{
+	display: flex;
+	flex-flow: column;
+	background-color: black;
+	flex-grow: 3;
+}
+
+.ImagenProducto img{
+	height: 200px;
+	width: 200px;
 	border-radius: 10px;
 }
