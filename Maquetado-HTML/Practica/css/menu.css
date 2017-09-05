@@ -1,15 +1,33 @@
-header nav a{
-	color: black;
-	text-decoration: none;
-	text-align: center;
-}
-
-footer nav a{
-	color: black;
-	text-decoration: none;
-	text-align: center;
-}
-
-footer nav ul{
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 	list-style-position: inside;
+	/*position: fixed;*/
+	overflow: auto;
+}
+
+nav li a{
+	display: block;
+	width: 120px;
+	text-decoration: none;
+	text-align: center;
+}
+
+header nav li a{
+	color: white;
+	background-color: #28B78D;
+	color: #FAFAFA;
+	font-size: 18px;
+}
+
+header nav li a:hover{
+	background-color: #8A949B;
+	color: #243743;
+}
+
+footer nav li a{
+	background-color: #8A949B;
+	color: #243743;
+	font-size: 12px;
 }
