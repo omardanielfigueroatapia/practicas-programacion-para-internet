@@ -4,5 +4,29 @@
 
 main{
   display: flex;
+  justify-content: flex-start;
+  flex-flow: row;
+}
+
+main > aside{
+  display: flex;
   flex-direction: column;
+  flex-flow: nowrap;
+  align-self: stretch;
+}
+
+main aside ul{
+  background-color: #8A949B;
+	color: #243743;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+main aside li a{
+  display: block;
+	flex-grow: 1;
+  color: #243743;
+  text-decoration: none;
 }
