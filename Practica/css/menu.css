@@ -1,7 +1,5 @@
 header{
-	/*display: flex;*/
-	/*position: fixed;*/
-	/*background-color: green;*/
+	
 }
 
 nav ul{
@@ -19,14 +17,20 @@ nav li a{
 	text-align: center;
 }
 
-.MenuPrincipal ul{
+header nav ul{
 	background-color: #28B78D;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-.ItemMenuP{
+header nav ul li:hover{
+	background-color: #8A949B;
+	color: #243743;
+	align-items: center;
+}
+
+header nav ul li a{
 	display: block;
 	flex-grow: 1;
 	background-color: #28B78D;
@@ -36,20 +40,20 @@ nav li a{
 	align-self: stretch;
 }
 
-.ItemMenuP:hover{
+header nav ul li a:hover{
 	background-color: #8A949B;
 	color: #243743;
 	align-self: stretch;
 }
 
-.MenuFooter ul{
+footer nav ul{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #8A949B;
 }
 
-.ItemMenuF{
+footer nav ul li a{
 	background-color: #8A949B;
 	color: #243743;
 	font-size: 12px;
