@@ -1,21 +1,17 @@
 .Producto{
 	background-color: #FAFAFA;
 	display: flex;
+	flex-flow: row;
 	justify-content: space-between;
 }
 
-.ImagenProducto{
-	flex-grow: 1;
-}
-
-.DescripcionProducto{
+.Producto div{
 	display: flex;
 	flex-flow: column;
-	background-color: black;
 	flex-grow: 3;
 }
 
-.ImagenProducto img{
+.Producto img{
 	height: 200px;
 	width: 200px;
 	border-radius: 10px;

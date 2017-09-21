@@ -2,9 +2,16 @@
   font-family: sans-serif;
 }
 
+body{
+display: flex;
+
+flex-flow: column wrap;
+
+}
+
 main{
   display: flex;
-  justify-content: flex-start;
+  align-self: stretch;
   flex-flow: row;
 }
 
@@ -24,9 +31,14 @@ main aside ul{
   align-items: flex-start;
 }
 
+main aside ul{
+  list-style-position: inside;
+}
+
 main aside li a{
   display: block;
 	flex-grow: 1;
   color: #243743;
+  
   text-decoration: none;
 }
