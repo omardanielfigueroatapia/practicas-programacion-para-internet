@@ -1,0 +1,40 @@
+main{
+  flex-wrap: wrap;
+  /*background-color: #407EFF;*/
+}
+
+main > section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  align-self: stretch;
+}
+
+main > section > h1{
+  align-self: center;
+}
+
+main > section > a{
+  text-decoration: none;
+  color: black;
+  align-self: center;
+}
+
+main > section > div{
+  align-self: center;
+}
+
+.Registro{
+  display: flex;
+  flex-direction: column;
+}
+
+.Registro > input{
+  padding: 5px, 0px;
+}
+
+.InicioSesion{
+  display: flex;
+  flex-direction: column;
+}

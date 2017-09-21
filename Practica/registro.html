@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <section>
+        <figure class="ImagenLogotipo" Alt="Logotipo">
+          <IMG SRC="images/logo.png">
+        </figure>
+        <div class="LoginRegistro">
+          <a href="registro.html"><i class="fa fa-user-circle fa-3x"></i></a>
+          <a href="registro.html">Login/Registro</a>
+        </div>
+      </section>
+      <nav class="MenuPrincipal">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="catalogo.html">Catalogo</a></li>
+          <li><a href="#">Mas vendidos</a></li>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Registrate</h1>
+        <form action="index.html" class="Registro" method="post">
+          <div>
+            <input type="text" id="nombreU" name="nombreU" placeholder="Nombre">
+            <input type="text" id="apellidoU" name="apellidoU" placeholder="Apellido">
+          </div>
+          <input type="email" id="emailU" name="emailU" value="" placeholder="Correo Elctronico">
+          <input type="password" name="contraseñaU" id="contraseñaU" placeholder="Contraseña">
+        </form>
+        <div>
+          <input type="checkbox" name="" id="terminos">
+          <label for="terminos">Acepto los terminos y condiciones</label>
+        </div>
+        <button type="submit" name="registrar">Registrar</button>
+      </section>
+      <section>
+        <h1>Iniciar Seccion</h1>
+        <form action="index.html" class="InicioSesion" method="post">
+          <input type="email" id="emailU" name="emailU" value="" placeholder="Correo Elctronico">
+          <input type="password" name="contraseñaU" id="contraseñaU" placeholder="Contraseña">
+        </form>
+        <button type="submit" name="ingresar">Ingresar</button>
+        <a href="#">olvide mi contraseña</a>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <nav class="MenuFooter">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="">Catalogo</a></li>
+            <li><a href="#">Productos mas vendidos</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      <strong>MicroCom</strong>
+      </section>
+      <section>
+        <strong>Copyright &copy; 2017 MicroCom.</strong>
+      </section>
+    </footer>
+  </body>
+</html>

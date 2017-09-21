@@ -11,8 +11,10 @@ flex-flow: column wrap;
 
 main{
   display: flex;
-  align-self: stretch;
   flex-flow: row;
+  justify-content: space-around;
+
+
 }
 
 main > aside{
@@ -39,6 +41,6 @@ main aside li a{
   display: block;
 	flex-grow: 1;
   color: #243743;
-  
+
   text-decoration: none;
 }
