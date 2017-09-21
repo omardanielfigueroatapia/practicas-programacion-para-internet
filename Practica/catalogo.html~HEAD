@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <title>Catalogo - MicroCom</title>
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/article.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <header>
+      <section>
+        <figure class="ImagenLogotipo" Alt="Logotipo">
+          <img src="images/logo.png">
+        </figure>
+        <div class="LoginRegistro">
+          <a href="registro.html"><i class="fa fa-user-circle fa-3x"></i></a>
+          <a href="registro.html">Login/Registro</a>
+        </div>
+      </section>
+      <nav class="MenuPrincipal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+                  <li><a href="#">Catalogo</a></li>
+                  <li><a href="carrito_de_compras.html">Carrito de compras</a></li>
+            <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                  <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <ul>
+          <li><a href="#">Audio</a></li>
+          <li><a href="#">Automotriz</a></li>
+          <li><a href="#">Cables</a></li>
+          <li><a href="#">Casa y oficina</a></li>
+          <li><a href="#">Computacion</a></li>
+          <li><a href="#">Energia</a></li>
+          <li><a href="#">Herramientas</a></li>
+          <li><a href="#">Iluminacion</a></li>
+          <li><a href="#">Outlet</a></li>
+          <li><a href="#">Telefonia</a></li>
+          <li><a href="#">TV y video</a></li>
+          <li><a href="#">Videovigilancia y seguridad</a></li>
+        </ul>
+      </aside>
+      <section>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+        <article class="Producto">
+          <figure>
+            <img src="images/circuito-electronico.jpg" alt="Circuito Electrico">
+          </figure>
+          <div>
+            <h2>Circuito</h2>
+            <p>Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.
+              Difficile est tenere quae acceperis nis exerceas.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <nav class="MenuFooter">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="carrito_de_compras.html">Carrito de compras</a></li>
+              <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <p align=center><strong>Copyright &copy; 2017 MicroCom.</strong></p>
+      </section>
+    </footer>
+  </body>
+</html>
