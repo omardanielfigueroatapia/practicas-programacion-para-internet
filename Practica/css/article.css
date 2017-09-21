@@ -9,7 +9,6 @@
 	display: flex;
 	flex-flow: column;
 	flex-grow: 3;
-	overflow: scroll;
 }
 
 .Producto img{

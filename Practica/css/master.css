@@ -3,9 +3,8 @@
 }
 
 body{
-display: flex;
-
-flex-flow: column wrap;
+  display: flex;
+  flex-flow: column wrap;
 
 }
 
@@ -13,8 +12,6 @@ main{
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-
-
 }
 
 main > aside{
@@ -30,17 +27,24 @@ main aside ul{
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
+  list-style-position: inside;
+  padding: 0px;
 }
 
-main aside ul{
-  list-style-position: inside;
+main aside li{
+  padding: 10px, 0px;
+  display: flex;
+  align-items: stretch;
 }
 
 main aside li a{
   display: block;
-	flex-grow: 1;
+  width: 50;
   color: #243743;
-
   text-decoration: none;
+}
+
+main aside li a:hover{
+  background-color: #0096FF;
 }

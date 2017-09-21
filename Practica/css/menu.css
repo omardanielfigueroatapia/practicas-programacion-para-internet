@@ -34,12 +34,14 @@ nav ul{
 	overflow: auto;
 }
 
+nav ul li{
+	text-align: center;
+	align-self: stretch;
+}
+
 nav li a{
 	width: 120px;
 	text-decoration: none;
-	text-align: center;
-	flex-flow: nowrap;
-	align-self: stretch;
 	padding: 20px, 0px;
 }
 
